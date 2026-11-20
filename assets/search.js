@@ -1,0 +1,1 @@
+(()=>{const q=document.querySelector('#archive-search');if(q){q.addEventListener('input',()=>{let n=0;document.querySelectorAll('[data-search]').forEach(e=>{let visible=e.textContent.toLocaleLowerCase().includes(q.value.trim().toLocaleLowerCase());e.classList.toggle('hidden',!visible);n+=visible});document.querySelector('#no-results').classList.toggle('hidden',n!==0)})}})();

@@ -1,0 +1,18 @@
+Beauty Leaders Website v0.2
+Deployment-ready package for GitHub Pages
+
+How to deploy:
+1. Extract this zip on your computer.
+2. Open your GitHub repository: iazarkhish-oss/iazarkhish-oss.github.io
+3. Delete the temporary test index.html if it is still there, or replace it during upload.
+4. Use Add file > Upload files.
+5. Drag and drop ALL extracted files and folders from this package into the upload area.
+6. Commit changes to the main branch.
+7. Wait about 1 to 3 minutes for GitHub Pages to rebuild.
+8. Hard refresh the site at https://iazarkhish-oss.github.io/
+
+Important:
+- Keep the file and folder structure exactly as provided.
+- Do not place the files inside an extra parent folder.
+- The fa folder and assets folder must remain at the repository root level.
+- This build intentionally keeps noindex,nofollow until final approval.
